@@ -1,0 +1,125 @@
+body{
+  background-image: url(floor.png);
+}
+
+#Lh1{
+  position: absolute;
+  color: black;
+  left: 330px;
+  top: 250px;
+  text-decoration: underline;
+}
+
+#Main_H1{
+  position: relative;
+  font-size: 60px;
+  color: #DEB887;
+  margin: 0px 0px 0px 600px;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  right: 150px;
+}
+
+.divDisplay{
+  color: black;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+}
+
+
+#Register{
+  position: relative;
+  width:125px;
+  height: 50px;
+  left: 560px;
+  top: 340px;
+  bottom: 100px;
+}
+
+#Login{
+  position: relative;
+  width:125px;
+  height: 50px;
+  left: 556px;
+  top: 340px;
+  bottom: 100px;
+}
+
+
+#email{
+  position: relative;
+  font-size: 20px;
+  left: 560px;
+  top: 340px;
+  bottom: 100px;
+}
+
+#password{
+  position: relative;
+  font-size: 20px;
+  left: 560px;
+  top: 340px;
+  bottom: 100px;
+}
+
+#pPrice{
+  position: relative;
+  width:180px;
+  height: 30px;
+  font-size: 17px;
+}
+
+#pStock{
+  position: relative;
+  width:180px;
+  height: 30px;
+  font-size: 17px;
+}
+
+#pName{
+  position: relative;
+  width:180px;
+  height: 30px;
+  font-size: 17px;
+}
+
+#Add{
+  position: relative;
+  width: 160px;
+  height: 30px;
+}
+
+#Delete{
+  position: relative;
+  width: 160px;
+  height: 30px;
+  right: 5px;
+}
+
+#Order{
+  position: relative;
+  width: 160px;
+  height: 30px;
+  right: 10px;
+}
+
+img{
+ float: left;
+ margin: 5px;
+ width: 260px;
+ height: 140px;
+}
+
+#img_div{
+ width: 80%;
+ padding: 5px;
+ margin: 15px auto;
+ border: 1px solid #cbcbcb;
+}
+
+#img_div:after{
+ content: "";
+ display: block;
+ clear: both;
+}
